@@ -16,6 +16,13 @@ const theme = createMuiTheme ({
           }
       },
     typography: {
+        h1: {
+            fontWeight: 800,
+            padding: 5,
+            fontSize: "2rem",
+            marginRight: "25px"
+        
+        },
         tab: {
             fontFamily: "Raleway",
             textTransform: "none",// button is underneath tab so to avoid all caps use none
